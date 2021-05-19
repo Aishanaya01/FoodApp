@@ -84,7 +84,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_1,
-                name: "Harsh"
+                name: "Aishanaya"
             },
             menu: [
                 {
@@ -127,7 +127,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_2,
-                name: "Vishu"
+                name: "Aish"
             },
             menu: [
                 {
@@ -178,7 +178,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_3,
-                name: "Dullu"
+                name: "Harshita"
             },
             menu: [
                 {
@@ -205,7 +205,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_4,
-                name: "Ahmad"
+                name: "Vaibhav"
             },
             menu: [
                 {
@@ -232,7 +232,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_4,
-                name: "Hitesh"
+                name: "Yamini"
             },
             menu: [
                 {
@@ -285,7 +285,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_1,
-                name: "Hitesh"
+                name: "Shakshi"
             },
             menu: [
                 {
