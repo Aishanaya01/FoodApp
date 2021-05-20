@@ -82,7 +82,7 @@ const Restaurant = ({ route, navigation }) => {
 
     function renderHeader() {
         return (
-            <View style={{ flexDirection: 'row', marginTop:40 }}>
+            <View style={{ flexDirection: 'row' }}>
                 <TouchableOpacity
                     style={{
                         width: 50,
@@ -395,13 +395,12 @@ const Restaurant = ({ route, navigation }) => {
                                 alignItems: 'center',
                                 borderRadius: SIZES.radius
                             }}
-                             onPress={() => navigation.navigate("OrderDelivery", {
-                                 restaurant,
-                                 currentLocation
-                             })}
+                            onPress={() => navigation.navigate("OrderDelivery", {
+                                restaurant: restaurant,
+                                currentLocation: currentLocation
+                            })}
                         >
                             <Text style={{ color: COLORS.white, ...FONTS.h2 }}>Order</Text>
-                            
                         </TouchableOpacity>
                     </View>
                 </View>
