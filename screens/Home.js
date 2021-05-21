@@ -358,6 +358,7 @@ const Home=({navigation})=>{
                 style={{
                     width:30,
                     height:30,
+                    marginTop:30
                 }}
                 />
                 </TouchableOpacity>
@@ -370,7 +371,8 @@ const Home=({navigation})=>{
     backgroundColor:COLORS.lightGray3,
     alignItems:'center',
     justifyContent:"center",
-    borderRadius:SIZES.radius
+    borderRadius:SIZES.radius,
+    marginTop:30
     }}
     >
     <Text style={{...FONTS.h3}}>{currentLocation.streetName}</Text>
@@ -388,7 +390,8 @@ const Home=({navigation})=>{
                         resizeMode="contain"
                         style={{
                             width: 30,
-                            height: 30
+                            height: 30,
+                            marginTop:30
                         }}
                     />
                 </TouchableOpacity>
