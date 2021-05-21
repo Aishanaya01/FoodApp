@@ -84,7 +84,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_1,
-                name: "Aishanaya"
+                name: "Akash"
             },
             menu: [
                 {
@@ -127,7 +127,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_2,
-                name: "Aish"
+                name: "ayush"
             },
             menu: [
                 {
@@ -178,7 +178,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_3,
-                name: "Harshita"
+                name: "Dullu"
             },
             menu: [
                 {
@@ -205,7 +205,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_4,
-                name: "Vaibhav"
+                name: "Ahmad"
             },
             menu: [
                 {
@@ -232,7 +232,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_4,
-                name: "Yamini"
+                name: "Rahul"
             },
             menu: [
                 {
@@ -285,7 +285,7 @@ const Home=({navigation})=>{
             },
             courier: {
                 avatar: images.avatar_1,
-                name: "Shakshi"
+                name: "Hitesh"
             },
             menu: [
                 {
@@ -344,7 +344,7 @@ const Home=({navigation})=>{
 
     function renderHeader(){
     return(
-        <View style={{flexDirection:'row',height:54,top:36}}>
+        <View style={{flexDirection:'row',height:50,top:15}}>
             <TouchableOpacity
             style={{
                 width:50,
@@ -447,7 +447,7 @@ function renderMainCategories() {
     }
 
     return (
-        <View style={{ padding: SIZES.padding * 3.2 }}>
+        <View style={{ padding: SIZES.padding * 2 }}>
             <Text style={{ ...FONTS.h1 }}>Main</Text>
             <Text style={{ ...FONTS.h1 }}>Categories</Text>
 

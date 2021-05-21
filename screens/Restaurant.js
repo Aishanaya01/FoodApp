@@ -30,7 +30,7 @@ const Restaurant = ({ route, navigation }) => {
         let item = orderList.filter(a => a.menuId == menuId)
 
         if (action == "+") {
-            if (item.length > 0) {
+            if (item.length > 0) {  // means it check that if item is 0 then click + icon it increase the quantity
                 let newQty = item[0].qty + 1
                 item[0].qty = newQty
                 item[0].total = item[0].qty * price
@@ -45,7 +45,7 @@ const Restaurant = ({ route, navigation }) => {
             }
 
             setOrderItems(orderList)
-        } else {
+        } else {   // this else part is work for deduct the quantity
             if (item.length > 0) {
                 if (item[0]?.qty > 0) {
                     let newQty = item[0].qty - 1
@@ -68,10 +68,10 @@ const Restaurant = ({ route, navigation }) => {
         return 0
     }
 
-    function getBasketItemCount() {
-        let itemCount = orderItems.reduce((a, b) => a + (b.qty || 0), 0)
+    function getBasketItemCount() {   // this function is work for items in cart 
+        let itemCount = orderItems.reduce((a, b) => a + (b.qty || 0), 0) // the meaning of this line is to sum the all items 
 
-        return itemCount
+        return itemCount // this count is used for count the all quantity
     }
 
     function sumOrder() {
@@ -340,7 +340,7 @@ const Restaurant = ({ route, navigation }) => {
                             borderBottomWidth: 1
                         }}
                     >
-                        <Text style={{ ...FONTS.h3 }}>{getBasketItemCount()} items in Cart</Text>
+                        <Text style={{ ...FONTS.h3 }}>{getBasketItemCount()} items in Cart</Text> 
                         <Text style={{ ...FONTS.h3 }}>${sumOrder()}</Text>
                     </View>
 
